@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka One', cursive;
+    color: #282828;
+}
+
+header {
+    background-color: black;
+}
+
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    color:whitesmoke;
+    padding: 25px;
+    margin: 0px;  
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.Logo {
+    width: 30px;
+}
+
+li {
+    align-items: center;
+}
+
+.tittle {
+   size: 40px;
+}
+
+.animal-pic {
+    display:block;
+    width:100%;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+    color: black;
+    margin: 30px 25px;
+}
+
+p {
+    text-align: center;
+}
+
+.content {
+    position: relative;
+}
+
+.img-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: wheat;
+    padding:10px;
+}
